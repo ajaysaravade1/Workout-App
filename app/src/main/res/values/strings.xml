@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Workout App</string>
+
+    <string name="burpees">Burpees</string>
+    <string name="dumbbell_rows">Dummbel Rows</string>
+    <string name="glute_bridge">Glute Bridge</string>
+    <string name="lunges">Lunges</string>
+    <string name="overhead">Standing Overhead Dummbel Press</string>
+
+    <string name="pushups">Push Ups</string>
+    <string name="sideplanks">Side Plank</string>
+    <string name="single_leg_deadlifts_left">Single Leg Deadlift (Left)</string>
+    <string name="single_leg_deadlifts_right">Single Leg Deadlift (Right)</string>
+    <string name="situps">Situps</string>
+
+    <string name="squats">Squats</string>
+
+
+</resources>

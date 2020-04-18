@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@color/colorPrimary"/>
+    <EditText
+        android:id="@+id/noOfSet"
+        android:layout_width="match_parent"
+        android:hint="No. of Sets"
+        android:gravity="center_horizontal"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Workout"
+        android:background="@drawable/round"
+        android:textColor="#FFF"
+        android:layout_marginHorizontal="60dp"/>
+
+
+</LinearLayout>
